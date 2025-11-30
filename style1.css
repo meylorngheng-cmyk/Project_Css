@@ -1,0 +1,985 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    height: 400vh;
+    width: 100%;
+}
+/*nubar*/
+.box1{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    top: 0px;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    gap: 1000px;
+    justify-content: space-around;
+    border: 1px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.box1>h1{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: xx-large;
+    color: black;
+    text-shadow: 1px 1px 20px rgba(222, 184, 135, 0.358);
+    font-family: "Bebas Neue", sans-serif;
+}
+.box1>p{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.box1>p>a{
+    margin-right: 20px;
+    margin-top:25px;
+    text-decoration: none;
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+}
+/*home*/
+.box2{
+    width: 100%;
+    height: 950px;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/1200x/90/4d/7b/904d7bb31966fde6a36cc811b92fa451.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.boxs2{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    animation: boxs2 2s ease-in-out alternate;
+}
+@keyframes boxs2{
+   from{
+      transform: translatey(200px);
+   }to{
+      transform: translatey(-4px) ;
+   }
+}
+.box2>.boxs2>p{
+     font-family: "Dancing Script", cursive;
+     
+}
+.box2>.boxs2>h1{
+     font-family: "Bebas Neue", sans-serif;
+     font-size: 60px;
+     
+}
+.exploremywork{
+    padding: 10px;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all 0.5s ease-in-out;
+   
+}
+.exploremywork:hover{
+    background-color: rgba(128, 128, 128, 0.39);
+    transform: scale(1.2);
+}
+.box3{
+    width: 100%;
+    height: 950px;
+    background-color: burlywood;
+}
+.box3>h1{
+     font-family: "Bebas Neue", sans-serif;
+     font-size: 50px;
+     animation: box3-h1 2s ease-in-out alternate;
+}
+@keyframes box3-h1{
+      from{
+        transform: translateX(100px);
+      }to{
+        transform: translateX(-2px);
+      }
+}
+.box3>.box3-1>.sentence>h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 45px;
+     animation: sentence-h1 2s ease-in-out alternate;
+}
+@keyframes sentence-h1{
+      from{
+        transform: translateX(100px);
+      }to{
+        transform: translateX(-1px);
+      }
+    }
+.box3-1{
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+}
+.box3-1>.pic>img{
+    height: 500px;
+    width: 320px;
+    margin-left: 160px;
+    border-radius: 20px;
+    border: 2px solid ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    animation: img 2s ease-in-out alternate;
+}
+@keyframes img{
+    from{
+        transform: translatex(-100px);
+    }to{
+        transform: translatex(1);
+    }
+}
+.box3>.box3-1>.sentence>p{
+    animation: p-box3-1 2s ease-in-out alternate;
+}
+@keyframes p-box3-1{
+    from{
+        transform: translateY(100px);
+    }to{
+        transform: translateY(1px);
+    }
+}
+.box3-1>.sentence{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box3-1>.sentence>.skill{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    text-shadow: 1px 1px 15px black;
+    font-size: 5px;
+    gap: 32px;
+    animation: skill 2s ease-in-out alternate;
+}
+@keyframes skill{
+    from{
+        transform: translateY(100px);
+    }to{
+        transform: translateY(1);
+    }
+}
+.ux{
+    font-size: 8px;
+    width: 115px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: rgba(128, 128, 128, 0.32);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all 0.5s ease-in-out; 
+}
+.ux:hover{
+    background-color: rgba(245, 222, 179, 0.568);
+    transform: translate(-3px);
+}
+.web{
+    width: 150px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: rgba(128, 128, 128, 0.32);
+    border-radius: 30px;
+    font-size: 8px;
+    transition: all 0.5s ease-in-out; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+}
+.web:hover{
+    background-color: rgba(245, 222, 179, 0.568);
+    transform: translate(-3px);
+}
+.front{
+    font-size: 8px;
+    width: 100px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: rgba(128, 128, 128, 0.32);
+    border-radius: 30px;
+    transition: all 0.5s ease-in-out; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+}
+.front:hover{
+    background-color: rgba(245, 222, 179, 0.568);
+    transform: translate(-3px);
+}
+.graphic{
+    font-size: 8px;
+    width: 125px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: rgba(128, 128, 128, 0.32);
+    border-radius: 30px;
+    transition: all 0.5s ease-in-out; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+}
+.graphic:hover{
+    background-color: rgba(245, 222, 179, 0.568);
+    transform: translate(-3px);
+}
+.desing{
+    font-size: 8px;
+    width: 125px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: rgba(128, 128, 128, 0.32);
+    border-radius: 30px;
+    transition: all 0.5s ease-in-out; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+}
+.desing:hover{
+    background-color: rgba(245, 222, 179, 0.568);
+    transform: translate(-3px);
+}
+.problem{
+    font-size: 8px;
+    width: 130px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: rgba(128, 128, 128, 0.32);
+    border-radius: 30px;
+    transition: all 0.5s ease-in-out; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+}
+.problem:hover{
+    background-color: rgba(245, 222, 179, 0.568);
+    transform: translate(-3px);
+}
+/*portfplio*/
+.box4{
+    width: 100%;
+    height:1000px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+}
+.box4>h1{
+  padding-top: 125px;
+  margin-left: 735px;
+  font-family: "Bebas Neue", sans-serif;
+  padding-bottom: 25px;
+  font-size: 40px;
+    animation: box4-h1 2s ease-in-out alternate;
+}
+@keyframes box4-h1{
+   from{
+      transform: translatey(50px);
+   }to{
+      transform: translatey(-1px) ;
+   }
+}
+.boxs4-1{
+    margin-left: 330px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.boxs4-1>.box4-1{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    animation: box4-1 2s ease-in-out alternate;
+}
+@keyframes box4-1{
+   from{
+      transform: translatex(-100px);
+   }to{
+      transform: translatex(1px) ;
+   }
+}
+.boxs4-1>.box4-1:hover{
+    transform: translate(-10px);
+    background-color: rgba(245, 222, 179, 0.566);
+}
+.boxs4-1>.box4-1>img{
+    transition: 0.5 ease-in-out;
+}
+.boxs4-1>.box4-1:hover img{
+   filter: blur(1px);
+}
+.e-com{
+    padding-left: 15px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.react{
+    width: 50px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.react:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.node{
+    width: 50px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all 0.5s ease-in-out;
+}
+.node:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black; 
+    transform: translateY(3px); 
+}
+.mongo{
+    width: 70px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; 
+    transition: all 0.5s ease-in-out;
+}
+.mongo:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black; 
+    transform: translateY(3px);
+}
+.stripe{
+    width: 50px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.stripe:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.box4-2{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    animation: box4-2 2s ease-in-out alternate;
+}
+@keyframes box4-2{
+   from{
+      transform: translatey(50px);
+   }to{
+      transform: translatey(-1px) ;
+   }
+}
+.box4-2:hover{
+    transform: translate(-10px);
+    background-color: rgba(245, 222, 179, 0.566);
+}
+.boxs4-1>.box4-2>img{
+    transition: 0.5 ease-in-out;
+}
+.boxs4-1>.box4-2:hover img{
+   filter: blur(1px);
+}
+.brand{
+    padding-left: 10px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.illustra{
+    width: 60px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        transition: all 0.5s ease-in-out;
+}
+.illustra:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}  
+.photo{
+    width: 60px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        transition: all 0.5s ease-in-out;
+}
+.photo:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}  
+.figma{
+    width: 40px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.figma:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.after{
+    width: 70px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.after:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.box4-3{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    animation: box4-3 2s ease-in-out alternate;
+}
+@keyframes box4-3{
+   from{
+      transform: translatex(100px);
+   }to{
+      transform: translatex(-1px) ;
+   }
+}
+.box4-3:hover{
+    transform: translate(-10px);
+    background-color: rgba(245, 222, 179, 0.566);
+}
+.boxs4-1>.box4-3>img{
+    transition: 0.5 ease-in-out;
+}
+.boxs4-1>.box4-3:hover img{
+   filter: blur(1px);
+}
+.moblie{
+    padding-left: 10px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.moblie>.figma{
+    width: 40px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.moblie>.figma:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.prin{
+    width: 55px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.prin:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.moblie>.react{
+    width: 40px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.moblie>.react:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.lottie{
+    width: 50px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.lottie:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.boxs4-2{
+    margin-left: 330px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.box4-4{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    animation: box4-4 2s ease-in-out alternate;
+}
+@keyframes box4-4{
+   from{
+      transform: translatex(-100px);
+   }to{
+      transform: translatex(1px) ;
+   }
+}
+.box4-4:hover{
+    transform: translate(-10px);
+    background-color: rgba(245, 222, 179, 0.566);
+}
+.boxs4-2>.box4-4>img{
+    transition: 0.5 ease-in-out;
+}
+.boxs4-2>.box4-4:hover img{
+   filter: blur(1px);
+}
+.Dash{
+    padding-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.Vue{
+    width: 45px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.Vue:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.D3{
+    width: 45px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.D3:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.SCSS{
+    width: 45px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.SCSS:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.Chart{
+    width: 50px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.Chart:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.box4-5{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   animation: box4-5 2s ease-in-out alternate;
+}
+@keyframes box4-5{
+   from{
+      transform: translatey(50px);
+   }to{
+      transform: translatey(-1px) ;
+   }
+}
+.box4-5:hover{
+    transform: translate(-10px);
+    background-color: rgba(245, 222, 179, 0.566);
+}
+.boxs4-2>.box4-5>img{
+    transition: 0.5 ease-in-out;
+}
+.boxs4-2>.box4-5:hover img{
+   filter: blur(1px);
+}
+.Market{
+    padding-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.Next{
+    width: 45px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.Next:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.Framer{
+    width: 90px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.Framer:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.Tailwind{
+    width: 80px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.Tailwind:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.box4-6{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    animation: box4-6 2s ease-in-out alternate;
+}
+@keyframes box4-6{
+   from{
+      transform: translatex(100px);
+   }to{
+      transform: translatex(-1px) ;
+   }
+}
+.box4-6:hover{
+    transform: translate(-10px);
+    background-color: rgba(245, 222, 179, 0.566);
+}
+.boxs4-2>.box4-6>img{
+    transition: 0.5 ease-in-out;
+}
+.boxs4-2>.box4-6:hover img{
+   filter: blur(1px);
+}
+.Creative{
+    padding-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.Creative>.React{
+    width: 40px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.Creative>.React:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.Three{
+    width: 55px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.Three:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.GSAP{
+    width: 40px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.GSAP:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+.WebGL{
+    width: 50px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color:rgba(222, 184, 135, 0.358);
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  
+    transition: all 0.5s ease-in-out;
+}
+.WebGL:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+    border: 1px  solid black;
+    transform: translateY(3px);
+}
+/*contact*/
+.box5{
+    width: 100%;
+    height: 950px;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/1200x/90/4d/7b/904d7bb31966fde6a36cc811b92fa451.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box5>h1{
+    padding-top: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+.box5>p{
+    padding-top: 20px;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+}
+.boxs5-1{
+    margin-top: 20px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.word-box{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+    height: 120px;
+    width: 1000px;
+}
+.word-box>.word1{
+    margin-left: 55px;
+    display: flex;
+    flex-direction: row;
+    gap: 480px;
+    font-size: 7px;
+   animation: word1 2s ease-in-out alternate;
+}
+@keyframes word1{
+   from{
+      transform: translatey(50px);
+   }to{
+      transform: translatey(-1px) ;
+   }
+}
+.box5-1{
+    height: 70px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   animation: box5-1 2s ease-in-out alternate;
+}
+@keyframes box5-1{
+   from{
+      transform: translatey(50px);
+   }to{
+      transform: translatey(-1px) ;
+   }
+}
+.box5-1-1{
+    margin: auto;
+    height: 70px;
+    width: 400px;
+    transition: all 1s ease-in-out;
+}
+.box5-1-1:hover{
+    transform: translateY(7px);
+}
+.box5-1-2{
+    margin: auto;
+    height: 70px;
+    width: 400px;
+    transition: all 1s ease-in-out;
+}
+.box5-1-2:hover{
+    transform: translateY(7px);
+}
+.word-box2{
+    height: 120px;
+    width: 100%;
+}
+.word-box2>h1{
+    font-size: 15px;
+    margin-bottom: 3px;
+   animation: word-box2 2s ease-in-out alternate;
+}
+@keyframes word-box2{
+   from{
+      transform: translatey(50px);
+   }to{
+      transform: translatey(-1px) ;
+   }
+}
+.box5-2{
+    margin: auto;
+    height: 70px;
+    width: 910px;
+    transition: all 1s ease-in-out;
+   animation: box5-2 2s ease-in-out alternate;
+}
+@keyframes box5-2{
+   from{
+      transform: translatey(50px);
+   }to{
+      transform: translatey(-1px) ;
+   }
+}
+.box5-2:hover{
+    transform: translateY(7px);
+}
+.word-box3{
+    height: 300px;
+    width: 100%;
+}
+.word-box3>h1{
+    font-size: 15px;
+    margin-bottom: 3px;
+   animation: word-box3 2s ease-in-out alternate;
+}
+@keyframes word-box3{
+   from{
+      transform: translatey(50px);
+   }to{
+      transform: translatey(-1px) ;
+   }
+}
+.box5-3{
+    margin: auto;
+    height: 200px;
+    width: 910px;
+    transition: all 1s ease-in-out;
+   animation: box5-3 2s ease-in-out alternate;
+}
+@keyframes box5-3{
+   from{
+      transform: translatey(50px);
+   }to{
+      transform: translatey(-1px) ;
+   }
+}
+.box5-3:hover{
+    transform: translateY(7px);
+}
+.box5-4{
+    margin: auto;
+    height: 80px;
+    width: 910px;
+    transition: all 1s ease-in-out;
+   animation: box5-4 2s ease-in-out alternate;
+}
+@keyframes box5-4{
+   from{
+      transform: translatey(50px);
+   }to{
+      transform: translatey(-1px) ;
+   }
+}
+.box5-4:hover{
+    transform: translateY(7px);
+}
+
+
