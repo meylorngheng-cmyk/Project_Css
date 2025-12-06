@@ -263,15 +263,11 @@ body{
     background-color: burlywood;
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 }
 .box4>h1{
   padding-top: 125px;
-<<<<<<< HEAD
-  margin: 0 auto;
-=======
-   margin: 0 auto;
->>>>>>> f7928df9d67fe958bcc2f2748fc3a26da3c141f2
   font-family: "Bebas Neue", sans-serif;
   padding-bottom: 25px;
   font-size: 40px;
@@ -284,16 +280,10 @@ body{
       transform: translatey(-1px) ;
    }
 }
-.boxs4-1{
-<<<<<<< HEAD
-     margin: 0 auto;
-=======
-      margin: 0 auto;
->>>>>>> f7928df9d67fe958bcc2f2748fc3a26da3c141f2
-    width: 100%;
+.boxs4-1{  
+    margin: 0 auto;
     height: 350px;
     display: flex;
-    flex-direction: row;
     gap: 50px;
 }
 .boxs4-1>.box4-1{
@@ -425,7 +415,7 @@ body{
     background-color:rgba(222, 184, 135, 0.358);
     border-radius: 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-        transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .illustra:hover{
     background-color: rgba(128, 128, 128, 0.459);
@@ -439,7 +429,7 @@ body{
     background-color:rgba(222, 184, 135, 0.358);
     border-radius: 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-        transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .photo:hover{
     background-color: rgba(128, 128, 128, 0.459);
@@ -564,11 +554,9 @@ body{
     transform: translateY(3px);
 }
 .boxs4-2{
-    margin: 0 auto;
-    width: 100%;
+    margin:  0 auto;
     height: 350px;
     display: flex;
-    flex-direction: row;
     gap: 50px;
 }
 .box4-4{
