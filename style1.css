@@ -266,7 +266,7 @@ body{
 }
 .box4>h1{
   padding-top: 125px;
-  margin-left: 735px;
+   margin: 0 auto;
   font-family: "Bebas Neue", sans-serif;
   padding-bottom: 25px;
   font-size: 40px;
