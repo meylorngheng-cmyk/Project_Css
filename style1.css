@@ -280,7 +280,7 @@ body{
    }
 }
 .boxs4-1{
-    margin-left: 330px;
+      margin: 0 auto;
     width: 100%;
     height: 350px;
     display: flex;
@@ -555,7 +555,7 @@ body{
     transform: translateY(3px);
 }
 .boxs4-2{
-    margin-left: 330px;
+    margin: 0 auto;
     width: 100%;
     height: 350px;
     display: flex;
